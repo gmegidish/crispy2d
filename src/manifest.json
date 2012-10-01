@@ -1,0 +1,15 @@
+{
+  "name": "Canvas2D",
+  "version": "0.707",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["background.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "manifest_version": 2
+}
