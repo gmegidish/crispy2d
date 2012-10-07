@@ -1,15 +1,28 @@
 {
-  "name": "Canvas2D",
-  "version": "0.707",
-  "permissions": [
-    "tabs", "http://*/*", "https://*/*"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["http://*/*"],
-      "js": ["background.js"],
-      "run_at": "document_start"
-    }
-  ],
-  "manifest_version": 2
+	"name": "Crispy2d",
+	"version": "0.707106",
+	"permissions": [
+		"tabs", 
+		"http://*.hol.abime.net/*",
+		"http://*.lemonamiga.com/*",
+		"http://*.mobygames.com/*",
+		"http://*.vgmuseum.com/*",
+		"http://*.arcade-museum.com/*",
+		"http://*.mamedev.emulab.it/*",
+		"http://*.mameworld.info/*",
+		"http://*.mamedev.org/*",
+		"http://*.gamebase64.com/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*", 
+				"https://*/*"
+			],
+
+			"js": ["background.js"],
+			"run_at": "document_start"
+		}
+	],
+	"manifest_version": 2
 }
