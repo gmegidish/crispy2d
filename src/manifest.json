@@ -1,6 +1,12 @@
 {
 	"name": "Crispy2d",
-	"version": "0.707106",
+	"version": "1.1",
+	"description": "Force nearest-neighbor scaling on retro-gaming sites",
+	"icons": {
+		"128": "icon128.png",
+		"16": "icon16.png",
+		"48": "icon48.png"
+	},
 	"permissions": [
 		"tabs", 
 		"http://*.hol.abime.net/*",
